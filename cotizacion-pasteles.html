@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="iso-8859-1">
+    <meta name=author content="Maribel Méndez">
+    <meta name="description" content="Pasteleria Launch X">
+    <meta name="keywords" content="Pasteleria,Precios bajos, sabores de pasteles,pasteles"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Postrecitos Maribel Méndez</title>
+    <link rel="stylesheet" href="./style/miestilo.css">
+</head>
+  <body>
+    
+    <header class="menu-header">
+                <nav class="main-titulo-contacto">
+                    <img src="./img/logo.svg" alt="" class="logo-imagen"/>
+                    <a href="./index.html">Inicio</a>
+                    <a href="#main-table">Precios Pasteles</a>
+                    <a href="./pagina_pastelero.html">Inventario Pastelero</a>
+                    <a href="./cotizacion-pasteles.html">Cotiza con nosotros</a>
+                    <a href="./historia-launch-x-2022.html">historia</a>
+                </nav>
+                <div class="menu-items">
+                    <span><a href="https://api.whatsapp.com/send?phone=5555555555&amp;text=Te%20contacto%20desde%20la%20web%20de%20App%20Center%20para%20mas%20info"class="size-text" >Necesitas ayuda? </a></span>
+                    <div class="main-titulo">
+                        <h1 id="titulo">Pasteleria Gourmet </h1>
+                    </div>
+                    <p class="size-text" >Contactanos 5555555555</p>
+                </div>
+          
+    </header>
+
+         <img class="imagen-menu" src="./img/03.jpg" alt="PASTEL VAINILLA" ></nav>
+
+    <br> <br> <br> <br>
+ <h1 align=center>Cotiza tu pastel Aqui</h1>
+<form action="/accion.js" id="form1" method="post">
+    <div align="center">
+        <label for="Input1"> Nombre Completo</label><br>
+        <input type="text" placeholder="Ingresa tu nombre" id="Input1" name="Input1"><br><br>
+
+        <label for="correo1">Correo electronico</label><br>
+        <input type="email" placeholder="Ejemplo@hotmail.com" id="correo1" name="correo1"><br><br>
+
+        <label for="numero1">Cuantos pasteles</label><br>
+        <input type="number" placeholder="Cantidad" id="numero1" name="numero1"><br><br>
+
+        <label for="tel1">Numero de telefono</label><br>
+        <input type="tel" placeholder="Telefono a 10 Digitos" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <label for="fecha1">Ingresa la fecha a entregar</label><br>
+        <input type="date" id="fecha1" name="fecha1"><br>
+
+
+        <label for="Sabor">Escoge tu sabor</label><br>
+        <select id="Sabor" name="Sabor">
+            <option value="Chocolate">pastel de chocolate ($100 El kilo)</option>
+            <option value="Vainilla">pastel de vainilla ($120 El kilo)</option>
+            <option value="Cajeta">pastel de fresa y chocolate ($85 El kilo)</option>
+            <option value="Red Velvet">pastel de bombones ($75 El kilo)</option>
+        </select><br><br>
+
+        <label for="vol">Elija el peso del pastel (entre 1kg y 15kg):</label><br>
+        <input type="range" id="vol" name="vol" min="1" max="15"><br><br>
+
+
+        <label for="decoracion">Escoge tu decoracion</label><br>
+        <select id="decoracion" name="decoracion">
+            <option value="Ninguno"> Ninguna</option>
+            <option value="Fondant">betun ($90)</option>
+            <option value="Sprinkles">Chocolate ($150)</option>
+            <option value="Chispas de chocolate">cerezas ($50)</option>
+            <option value="Buttercream">macadamia ($120)</option>
+        </select><br><br>
+
+        <label for="Input2"> ingresa tu dirección</label><br>
+        <input type="text" placeholder="Calle y numero" id="Input2" name="Input2"><br><br>
+
+        <label for="Input2"> informacion adicional</label><br>
+        <input type="text" placeholder="Datos o detalles extras" id="Input2" name="Input2"><br><br>
+
+        <input type="button" id="boton1" name="boton1" value="Enviar pedido"
+            onclick="alert('Se ha enviado el pedido');"><br><br>
+        <input type="reset"><br>
+</form>
+<div class="ubicacion">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5962.0469320812745!2d-4.698709!3d41.655235!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd47129b12ee9421%3A0xbc0cbdacf86464d4!2sC.%20Universo%2C%2047011%20Valladolid!5e0!3m2!1ses-419!2ses!4v1646978297190!5m2!1ses-419!2ses" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<div class="footer">
+    <footer>Derechos reservados</footer>
+
+</div>
+
+</body>
+</html>
